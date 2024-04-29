@@ -17,15 +17,15 @@ Running the application
 Testing
 
 Expense Tracking
-Test Case: testAddExpenseUpdatesUI
-Purpose: Ensures that adding an expense updates the UI appropriately.
+Purpose:Ensures that adding an expense updates the UI appropriately.
 How to Run:
-Navigate to the src/test/java directory.
-Run the following command to execute the test: mvn test -Dtest=ExpenseTrackerTest
+1. Navigate to the src/test/java directory.
+2. Run the following command to execute the test: mvn test -Dtest=ExpenseTrackerTest
 
 Budget Creation
-Test Case: testFlexibleBudgetAdjustsLimits
 Purpose: Checks if the flexible budget strategy adjusts budget limits based on past spending.
 How to Run:
-Navigate to the src/test/java directory.
-Run the following command to execute the test: mvn test -Dtest=BudgetCreationTest
+1. Navigate to the src/test/java directory.
+2. Run the following command to execute the test: mvn test -Dtest=BudgetCreationTest
+
+As there is only one test case for both, we don't need to specify which test case to run in the command.
